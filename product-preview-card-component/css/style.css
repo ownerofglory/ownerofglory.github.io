@@ -12,6 +12,12 @@ body {
     background-color: #f2ebe3;
 }
 
+#flex-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
 #main-container {
     width: 600px;
     height: 500px;
@@ -20,6 +26,7 @@ body {
     margin: auto;
     /* display: flex; */
     align-items: center;
+    justify-content: center;
 }
 
 #left-section {
